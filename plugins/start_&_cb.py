@@ -34,7 +34,7 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+        InlineKeyboardButton("👨‍💻 SvFilmsX 👨‍💻", callback_data='dev')
         ],[
         InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/SvFilmsX_official'),
         InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SvFilmsX_adultzone')
@@ -56,7 +56,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+                InlineKeyboardButton("👨‍💻 SvFilmsX 👨‍💻", callback_data='svfilmsx')
                 ],[
                 InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/SvFilmsX_official'),
                 InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SvFilmsX_adultzone')
@@ -93,9 +93,9 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
             ]])            
         )
-    elif data == "dev":
+    elif data == "svfilmsx":
         await query.message.edit_text(
-            text=Txt.DEV_TXT,
+            text=Txt.SVFILMSX_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
