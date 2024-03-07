@@ -36,8 +36,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Illegal_Developer'),
-        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/IllegalDeveloperBot')
+        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/SvFilmsX_official'),
+        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SvFilmsX_adultzone')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -58,8 +58,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup([[
                 InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Illegal_Developer'),
-                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/IllegalDeveloperBot')
+                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/SvFilmsX_official'),
+                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SvFilmsX_adultzone')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -71,9 +71,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/Illegal_Developer")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/SvFilmsX_admin")
                 ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url='https://t.me/IllegalDeveloperBot')
+                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url='https://t.me/SvFilmsXhelpBot')
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -85,9 +85,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/Illegal_Developer")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/SvFilmsX_admin")
                 ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/IllegalDeveloperBot")
+                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/SvFilmsXhelpBot")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -99,9 +99,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/Illegal_Developer")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/SvFilmsX_admin")
                 ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/IllegalDeveloperBot")
+                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/SvFilmsXhelpBot")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
